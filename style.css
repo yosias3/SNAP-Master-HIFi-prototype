@@ -1,0 +1,158 @@
+header {
+  padding-bottom: 80px;
+  padding-left: 80px; 
+ font-family: Futura; Trebuchet MS;
+ font-weight: bold condensed;
+ font-size: 25px;
+
+
+
+}
+
+header.secondary{   
+padding-left: 75px;
+}
+
+button.back{
+ /*These lines override the previous styling of buttons*/
+-webkit-border-image: url("greyButton.png") 0 14 0 14 stretch;
+width:60px;
+height: 30px;
+ 
+/*These lines position the back button inside the header*/
+position:absolute;
+left:16px;
+top:8px; }
+
+
+button.SignIn{
+ /*These lines override the previous styling of buttons*/
+-webkit-border-image: url("greyButton.png") 0 14 0 14 stretch;
+width:350px;
+height: 30px; }
+
+video {
+ 	/* add your style definitions here */
+	 padding-top:51px;
+	padding-left:31px;
+	border-radius: 9px;
+	border: 2px solid #666;
+	margin-top: 20;
+	margin-bottom: 10;
+        
+ 	/* transitions applied to the video element */
+ 	-moz-transition: all 1s ease-in-out;
+ 	-webkit-transition: all 1s ease-in-out;
+ 	-o-transition: all 1s ease-in-out;
+ 	-ms-transition: all 1s ease-in-out;
+ 	transition: all 1s ease-in-out;
+}
+
+audio {
+ 	/* add your style definitions here */
+	 padding-top:51px;
+	padding-bottom: 50px;
+	padding-left:31;
+	border-radius: 9px;
+	border: 2px solid #666;
+	margin-top: 20;
+	margin-bottom: 10;
+}
+
+
+body {
+ padding-top:50px;
+ font-family: Futura; Trebuchet MS; 
+ color: #000000;
+ font-size: 15px;
+}
+
+footer {
+ padding-top:20px;
+ font-family: Futura; Trebuchet MS; 
+ color: #000000;
+ font-size: 10px;
+}
+
+
+h1 {
+ padding-bottom: 40px;
+ padding-left: 80px;
+ font-family: Futura; Trebuchet MS;
+ font-weight: bold condensed;
+ color: #FF0000;
+ font-size: 20px;
+}
+
+#content {
+ padding:3px;
+}
+
+#WPI{
+ /*center the image*/
+ display: inline-block;
+ width: 50%;
+ margin-left: auto;
+ margin-right: auto;}
+
+#main_nav ul { padding: 0; margin: 0; }
+#main_nav li {
+ list-style-type: none; /* remove bullet points */ 
+}
+#main_nav li a {
+ display: inline-block;
+ text-decoration: none; /* remove underline */
+ border-radius: 10px; /* rounded corners */
+ margin: 6px;
+ padding: 9px;
+ color: #222;
+ font-weight: bold;
+ /* nice gradient shade on the buttons */
+ background-image: linear-gradient(to bottom, rgba(255,255,255,0),
+rgba(255,255,255,1));
+ border: 1px solid #666; /* dark outline */
+}
+nav li:active {
+ background-color: #ccc;
+ background-image: none;
+ box-shadow: inset 0 3px 3px rgba(0, 0, 0, .2);
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+button {
+ 
+/*center the button*/
+display: inline-block;
+margin-left: auto;
+margin-right: auto;
+ 
+/* add your code to set top and bottom margins */
+ margin-top: 30;
+ margin-bottom: 10;
+
+/*add an image to your button*/
+-webkit-border-image: url("orangeButton.png") 0 14 0 14 stretch;
+ 
+/*set width and height for the button*/
+width: 350px;
+height: 150px;
+ 
+}
+
+ 
+form label{
+		display: inline-block;
+		text-align: right;
+		float: left;
+	}
+form input{
+		display: inline-block;
+		text-align: left;
+		float: right;
+	}
